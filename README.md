@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Campus Event Hub
 
-## Getting Started
+Campus Event Hub is a centralized platform that connects university students and campus organizations through events, activities, and social gatherings. It serves as the go-to destination for discovering what's happening on campus—from academic workshops to social events, club meetings, and guest lectures.
 
-First, run the development server:
+## What is Campus Event Hub?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Campus Event Hub solves the problem of event discovery and engagement in university communities. Instead of relying on scattered social media posts, email lists, and bulletin boards, students and organizations can use a single platform to share, discover, and participate in campus events.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Core Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Event Discovery
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Browse by Category:** Academic, social, sports, career, cultural, and more
+- **Search & Filter:** Find events by keywords, dates, locations, or organizations
+- **Calendar View:** See all upcoming events in an organized calendar
+- **Personalized Recommendations:** Suggestions based on interests and past attendance
 
-## Learn More
+### Event Management
 
-To learn more about Next.js, take a look at the following resources:
+- **Event Creation (Organization Admins Only):** Add titles, descriptions, dates, times, locations, and capacity limits
+- **Media Support:** Upload event photos and promotional images
+- **Organization Branding:** Link events to official campus organizations
+- **Event Categories:** Organize events for better discoverability
+- **Privacy Controls:** Set events as public, private, or organization-only
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Real-Time Engagement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Instant RSVP System:** Real-time capacity tracking
+- **Waitlist Management:** Automatic waitlist when events reach capacity
+- **Live Comments:** Real-time discussion threads on event pages
+- **Nested Conversations:** Reply to comments for deeper discussions
+- **Social Indicators:** See which friends are attending
 
-## Deploy on Vercel
+### Organization Profiles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Organization Pages:** Profiles with descriptions, contact info, and branding
+- **Event History:** View all past and upcoming events
+- **Admin Management:** Multiple admins per organization
+- **Verification System:** Verified status for official organizations
+- **Analytics Access:** Track event engagement and attendance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Notification System
+
+- **Event Reminders:** Automatic notifications before events
+- **Event Updates:** Instant notifications for changes
+- **Comment Notifications:** Updates on event discussions
+- **Organization Announcements:** Updates from followed organizations
+
+## User Types & Roles
+
+- **Students:** Browse and search events, RSVP, comment, build profiles, and receive recommendations
+- **Organization Administrators:** Create and manage events, access analytics, moderate comments, and send announcements
+- **Super Administrators:** Moderate content, manage verifications, handle reports, and maintain platform policies
+
+## Key Benefits
+
+- **For Students:** Centralized discovery, social integration, personalized experience, easy participation, and community engagement
+- **For Organizations:** Increased visibility, better engagement, simplified management, data insights, and professional presence
+- **For Universities:** Enhanced campus life, improved communication, event coordination, student retention, and community building
+
+## How It Works
+
+1. **Sign Up:** Create accounts linked to your university
+2. **Explore:** Browse events by category, search, or view the calendar
+3. **Engage:** RSVP, join discussions, and connect with attendees
+4. **Create:** Only organization administrators can create events
+5. **Participate:** Attend events and continue conversations
+6. **Build Community:** Form lasting connections through shared interests
+
+## Community Guidelines
+
+Campus Event Hub is committed to a safe, inclusive, and engaging environment:
+
+- Respectful communication
+- Accurate and helpful event information
+- Inclusive events for all
+- Constructive feedback and support
+- Academic and personal growth
+
+---
+
+Campus Event Hub transforms how university communities discover, create, and participate in campus events—fostering stronger connections and a more vibrant campus life for everyone.
