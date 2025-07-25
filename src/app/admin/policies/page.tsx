@@ -10,7 +10,7 @@ export default function PoliciesPage() {
   const [editing, setEditing] = useState(false);
 
   return (
-    <div>
+    <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       <h2 className="text-xl font-semibold mb-4">Platform Policies</h2>
       <div className="bg-white rounded shadow p-6">
         <h3 className="font-bold mb-4">Community Guidelines</h3>

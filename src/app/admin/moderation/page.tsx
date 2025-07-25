@@ -7,7 +7,7 @@ export default function ModerationPage() {
   const [tab, setTab] = useState("Events");
 
   return (
-    <div>
+    <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       <h2 className="text-xl font-semibold mb-4">Content Moderation</h2>
       <div className="flex space-x-4 mb-6">
         {TABS.map((t) => (

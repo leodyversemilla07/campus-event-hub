@@ -1,4 +1,3 @@
-
 import { ConvexClientProvider } from "./ConvexClientProvider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -32,7 +31,9 @@ export default function RootLayout({
         <body>
           {/* Clerk auth buttons are now in the main Header component */}
           <ConvexClientProvider>
-            {children}
+            <main>
+              {children}
+            </main>
           </ConvexClientProvider>
         </body>
       </html>

@@ -1,6 +1,21 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-export default clerkMiddleware();
+// Protect all routes except /profile catch-all
+const isProtectedRoute = createRouteMatcher([
+  "/admin(.*)",
+  "/organizations(.*)",
+  "/events(.*)",
+  "/student(.*)",
+  "/org-admin(.*)",
+  // Add other protected routes as needed
+]);
+
+export default clerkMiddleware(async (auth, req) => {
+  // Do not protect /profile catch-all route
+  if (isProtectedRoute(req)) {
+    await auth.protect();
+  }
+});
 
 export const config = {
   matcher: [

@@ -11,10 +11,7 @@ export default function AdminDashboardPage() {
   const reportCount = useQuery(api.admin.countReports) ?? 0;
 
   return (
-    <div>
-      <div className="flex justify-end mb-4">
-        <UserButton />
-      </div>
+    <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       <h2 className="text-xl font-semibold mb-4">Welcome, Super Administrator!</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <StatCard label="Total Users" value={userCount} />

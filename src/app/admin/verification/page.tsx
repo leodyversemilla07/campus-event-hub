@@ -2,7 +2,7 @@ import React from "react";
 
 export default function VerificationPage() {
   return (
-    <div>
+    <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       <h2 className="text-xl font-semibold mb-4">Organization Verification</h2>
       <div className="bg-white rounded shadow p-6">
         <h3 className="font-bold mb-4">Pending Verification Requests</h3>
